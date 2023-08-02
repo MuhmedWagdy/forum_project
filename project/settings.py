@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'forum',
     'taggit',
     'bootstrap5',
+    'django_summernote', 
 ]
 
 MIDDLEWARE = [
