@@ -21,8 +21,7 @@
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           </form>
-            <a class="btn btn-outline-success me-auto" href="/quest/new">New Answer</a>
-            
+            <a class="btn btn-outline-success me-auto" href="/answer/new">New Answer</a>        
         
         </div>
       </div>
@@ -34,23 +33,13 @@
             <h1>New Answer</h1>
             <form method="post" enctype="multipart/form-data">
                 {% csrf_token %}
-                {% bootstrap_form form %}
-
-                
+                {% bootstrap_form form %}             
                 <button type="submit" class="btn btn-primary">Add New Answer</button>
 
             </form>
-
-
         </div>
       </div>
     </div>
-    
-
-
-
-
-
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
