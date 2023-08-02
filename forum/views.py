@@ -10,6 +10,8 @@ def list_question(request):
     data = Question.objects.all()
     return render(request,'list_question.html',{'question':data})
 
+
+#CBV   
 class QuestionList(ListView):
    model = Question
 
@@ -19,7 +21,7 @@ def list_answer(request):
     data = Answers.objects.all()
     return render(request,'list_answer.html',{'answer':data})
 
-
+#CBV   
 class ListAnswer(ListView):
    model = Answers
 

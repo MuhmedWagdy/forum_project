@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'forum',
     'taggit',
+    'bootstrap5',
 ]
 
 MIDDLEWARE = [

@@ -15,6 +15,8 @@ class QuestionForm(forms.ModelForm):
         exclude =('Author',)
 
 
+
+
 class AnswersForm(forms.ModelForm):
 
     class Meta:
