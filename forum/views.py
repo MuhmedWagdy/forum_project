@@ -171,8 +171,6 @@ class DeleteAnswer(DeleteView):
 
 
 
-
-
     
 
 
